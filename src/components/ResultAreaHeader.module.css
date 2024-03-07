@@ -1,0 +1,35 @@
+.mainResultHeader{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #96858f68;
+}
+.resultHeader{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #96858f68;
+    margin-top: 20px;
+}
+
+.btnMain {
+
+    background-color: #96858f;
+    color: #f4f4f4;
+    border: 1px solid #96858f;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.btnMain:hover {
+    background-color: #96858fac;
+    color: #f4f4f4;
+    border-color: #96858fd5;
+}
+
+h4{
+    margin: 10px;
+}

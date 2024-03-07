@@ -1,0 +1,98 @@
+.researchDimension{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px 12px;
+    gap: 1px;
+    border: 2px solid #96858f;
+    border-radius: 5px;
+    color: black;
+    flex: 0 1 calc(25% - 20px);
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color:#6c757d
+
+}
+
+.infoBtns{
+    display: flex;
+    gap: 5px;
+}
+
+.groupBtn{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+    color:#6c757d
+}
+.groupBtnCont{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.icon,
+.icon:hover {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.iconDelete{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.iconDelete:hover{
+    cursor: pointer;
+
+}
+
+.header {
+    color: #6d7993;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saveBtn,
+.closeBtn {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.saveBtn {
+    background-color: #96858f;
+    color: #f4f4f4;
+    border-color: #96858f;
+    float: left;
+    width: 45%;
+}
+
+.closeBtn {
+    background-color: #6d7993;
+    border-color: #6d7993;
+    color: #f4f4f4;
+    width: 45%;
+    float: right;
+}
+
+.closeBtn:hover {
+    background-color: #6d7993e1;
+    border-color: #6d7993e1;
+    font-size: 14.5px;
+}
+
+.saveBtn:hover {
+    background-color: #96858fcc;
+    border-color: #96858fcc;
+    font-size: 15px;
+}

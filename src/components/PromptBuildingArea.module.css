@@ -1,0 +1,88 @@
+.btnMain {
+
+    background-color: #96858f;
+    color: #f4f4f4;
+    border: 1px solid #96858f;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.btnMain:hover {
+
+    background-color: #96858fac;
+    color: #f4f4f4;
+    border-color: #96858fd5;
+    font-size: 15px;
+
+
+}
+
+.collapseBtn{
+    float: right;
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+.collapseBtn:hover{
+    cursor: pointer;
+}
+
+.accHeader{
+    background-color: #d5d5d5;
+    border-color: #f4f4f4;
+    color: black;
+    font-size: 15px;
+}
+
+
+.accCard{
+    border-radius: 5px;
+}
+
+
+/* .btnGen {
+
+    background-color: #96858f;
+    color: #f4f4f4;
+    border-color: #96858f;
+    margin-top:  15px;
+    margin-bottom:  5px;
+    float: left;
+    width: 45%;
+    font-size: 14px;
+}
+
+.btnClr {
+
+    background-color: #6d7993;
+    border-color: #6d7993;
+    color: #f4f4f4;
+    margin-top:  15px;
+    margin-bottom:  5px;
+    width: 45%;
+    float: right;
+    font-size: 14px;
+
+}
+
+
+.btnClr:hover {
+
+    background-color: #6d7993e1;
+    border-color: #6d7993e1;
+    color:#f4f4f4;
+    font-size: 14.5px;
+   
+}
+
+
+
+.btnGen:hover {
+
+    background-color: #96858fcc;
+    border-color: #96858fcc;
+    color: #f4f4f4;
+    font-size: 15px;
+} */

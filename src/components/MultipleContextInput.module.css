@@ -1,0 +1,30 @@
+.btnRemove{
+    margin-right: 10px;
+    font-size: 12px;
+
+}
+
+.btnRemove:hover{
+    cursor: pointer;
+
+}
+
+.collapseBtn{
+    float: right;
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+.collapseBtn:hover{
+    cursor: pointer;
+}
+
+
+.accHeader{
+    border-bottom: white;
+}
+
+.accCard{
+    border-radius: 0px;
+}

@@ -1,0 +1,92 @@
+.tableCont {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 4px;
+    border-radius: 2px;
+
+}
+
+.tableHeaderDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconDelete{
+    font-size: 12px;
+    margin-right: 2px;
+}
+.iconDelete:hover{
+   cursor: pointer;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #96858f85;
+    color: black;
+}
+
+.dimensions:hover{
+    cursor: pointer;
+}
+
+.editButtonContainer{
+    display: flex;
+    gap: 10px;    
+}
+
+.editBtn, .addColumnBtn{
+
+    background-color: #96858f;
+    color: #f4f4f4;
+    border: 1px solid #96858f;
+    font-size: 14px;
+    width: 14.5%;
+
+}
+.editBtn{
+    margin: 10px 0px 5px 0px;
+    min-width: 10%;
+}
+
+.addColumnBtn:hover,
+.editBtn:hover {
+
+    background-color: #96858fac;
+    color: #f4f4f4;
+    border-color: #96858fd5;
+    font-size: 15px;
+}
+
+.columnInput{
+    margin: 10px 0px 5px 0px;
+    flex-grow: 0.25;
+}
+
+.addColumnBtn{
+    margin: 10px 0px 5px 0px;
+    flex-grow: 0.25;
+    padding: 0px;
+
+}

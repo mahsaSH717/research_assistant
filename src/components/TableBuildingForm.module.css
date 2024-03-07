@@ -1,0 +1,54 @@
+.resultForm{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btns{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.genBtn{
+
+    background-color: #96858f;
+    color: #f4f4f4;
+    border-color: #96858f;
+    margin-top:  15px;
+    margin-bottom:  5px;
+    float: left;
+    width: 45%;
+    font-size: 14px;
+}
+
+.clearBtn{
+    background-color: #6d7993;
+    border-color: #6d7993;
+    color: #f4f4f4;
+    margin-top:  15px;
+    margin-bottom:  5px;
+    width: 45%;
+    float: right;
+    font-size: 14px;
+}
+
+.clearBtn:hover {
+
+    background-color: #6d7993e1;
+    border-color: #6d7993e1;
+    color:#f4f4f4;
+   
+}
+
+
+
+.genBtn:hover {
+
+    background-color: #96858fcc;
+    border-color: #96858fcc;
+    color: #f4f4f4;
+} 
