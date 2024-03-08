@@ -1,17 +1,17 @@
 # Research Assistant
-This project is a react application and is created with [Create React App](https://github.com/facebook/create-react-app). 
+This project is a React application and is created with [Create React App](https://github.com/facebook/create-react-app). 
 
-The project is a front end application which aims to facilitate the use of [ChatGPT](https://chat.openai.com/) and [Google Gimini](https://gemini.google.com/app) in the research process.
+The project is a front-end application that aims to facilitate the use of [ChatGPT](https://chat.openai.com/) and [Google Gimini](https://gemini.google.com/app) in the research process.
 
-It introduces 12 prompts each supporting different porpuses that researchers might need to use a free chatbot for, and then provides extra features for researchers to use the generated answer (in form of tables) for later manipulations.
+It introduces 12 prompts each supporting different porpuses that researchers might need to use a free chatbot for, and then provides extra features for researchers to manipulate the generated answer (in the form of tables) later.
 
-It is also designed in a way to support a descriptive method for adding new prompts based on the need of every individule.
+It is also designed in a way to support a descriptive method for adding new prompts based on the needs of every individual.
 
 ## Project Structure
 ### Code Base
-This is the main repository and contains the code base. You can find the components in [src/components](src/components) and the constant files for defining prompt senarios in [src/constants](src/constants).
+This is the [main repository](https://github.com/mahsaSH717/research_assistant) and contains the code base. You can find the components in [src/components](src/components) and the constant files for defining prompt scenarios in [src/constants](src/constants).
 ### Examples
-This folder () contains 3 sub folders each representing the results obtained by exploring the senarios in 3 different research domains : LLMs, R0Estimate, and ImpactOfClimateChange.
+The [Example folder](examples) contains 3 subfolders each representing the results obtained by exploring the scenarios in 3 different research domains: LLMs, R0 estimate, and Impact Of climate change.
 
 ## Libraries used
 The main packages used to build this project are:
@@ -20,36 +20,17 @@ The main packages used to build this project are:
   * [react copy to clipboard](https://github.com/nkbt/react-copy-to-clipboard).
   * [react icons](https://react-icons.github.io/react-icons/).
   
-  for a full list please refer to package.json
-  
-## Available Scripts
+  for a full list please refer to the [package.json](package.json)
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+After cloning the project you can install the dependencies by running in the following command the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running
+Run the following command:
 
-### `npm run build`
+    npm run start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Open the browser and enter the URL of the application: http://localhost:3000/.
