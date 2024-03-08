@@ -1,7 +1,27 @@
-# Getting Started with Create React App
+# Research Assistant
+This project is a react application and is created with [Create React App](https://github.com/facebook/create-react-app). 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is a front end application which aims to facilitate the use of [ChatGPT](https://chat.openai.com/) and [Google Gimini](https://gemini.google.com/app) in the research process.
 
+It introduces 12 prompts each supporting different porpuses that researchers might need to use a free chatbot for, and then provides extra features for researchers to use the generated answer (in form of tables) for later manipulations.
+
+It is also designed in a way to support a descriptive method for adding new prompts based on the need of every individule.
+
+## Project Structure
+### Code Base
+This is the main repository and contains the code base. You can find the components in [src/components](src/components) and the constant files for defining prompt senarios in [src/constants](src/constants).
+### Examples
+This folder () contains 3 sub folders each representing the results obtained by exploring the senarios in 3 different research domains : LLMs, R0Estimate, and ImpactOfClimateChange.
+
+## Libraries used
+The main packages used to build this project are:
+  * [React Bootstrap](https://react-bootstrap.netlify.app/).
+  * [react-csv](https://github.com/react-csv/react-csv#readme).
+  * [react copy to clipboard](https://github.com/nkbt/react-copy-to-clipboard).
+  * [react icons](https://react-icons.github.io/react-icons/).
+  
+  for a full list please refer to package.json
+  
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,11 +33,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -38,33 +53,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
