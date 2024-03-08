@@ -1,7 +1,7 @@
 # Research Assistant
 This project is a React application and is created with [Create React App](https://github.com/facebook/create-react-app). 
 
-The project is a front-end application that aims to facilitate the use of [ChatGPT](https://chat.openai.com/) and [Google Gimini](https://gemini.google.com/app) in the research process.
+The project is a front-end application that aims to facilitate the use of [ChatGPT](https://chat.openai.com/) and [Google Gemini](https://gemini.google.com/app) in the research process.
 
 It introduces 12 prompts each supporting different porpuses that researchers might need to use a free chatbot for, and then provides extra features for researchers to manipulate the generated answer (in the form of tables) later.
 
