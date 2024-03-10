@@ -11,6 +11,7 @@ const INPUTS_PROPERTIES = {
     'andSelectedResearchDimensions': { 'label': 'Selected Dimensions For "AND" Operation', 'placeholder': 'Please select dimensions on the screen', 'readOnly': true, 'isContext': false, 'value': '' },
     'orSelectedResearchDimensions': { 'label': 'Selected Dimensions For "OR" Operation', 'placeholder': 'Please select dimensions on the screen', 'readOnly': true, 'isContext': false, 'value': '' },
     'notSelectedResearchDimensions': { 'label': 'Selected Dimensions For "NOT" Operation', 'placeholder': 'Please select dimensions on the screen', 'readOnly': true, 'isContext': false, 'value': '' },
+    'projectCallObjectives': { 'label': 'Project Call Objective', 'rows': 3, 'placeholder': 'Please enter the project call objective', 'isContext': false },
 
 }
 

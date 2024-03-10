@@ -71,8 +71,6 @@ const PROMPT_TEMP = {
     },
 
     '7': {
-        // activatePrompts:['1','5','8','9'],
-
         nextStepFeilds:'none',
         type: "primary",
         description: "Write a scientific review with respect to the selected research dimensions",
@@ -128,10 +126,10 @@ const PROMPT_TEMP = {
         nextStepFeilds:'none',
         type: "primary",
         description: "Write a basic project proposal",
-        inputs: ["contextList"],
-        requiredFields: ["contextList"],
+        inputs: ["researchProblem", "projectCallObjectives"],
+        requiredFields: ["researchProblem","projectCallObjectives"],
         optionalFields: [],
-        baseTemp: `test`,
+        baseTemp: `Prepare a comprehensive project proposal consisting of the following sections: Background, Proposed Solution, Planned Work, Work Packages, Budget, and Impact. Formulate the proposal by drawing from your knowledge of the most recent advancements in research related to the "[researchProblem]" research problem. Address the project call objectives, which are outlined as follows: "[projectCallObjectives]"`,
 
     },
 
