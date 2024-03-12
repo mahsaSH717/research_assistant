@@ -73,7 +73,7 @@ const PROMPT_TEMP = {
     '7': {
         nextStepFeilds:'none',
         type: "primary",
-        description: "Write a scientific review with respect to the selected research dimensions",
+        description: "Write a scientific review from a context",
         inputs: ["researchProblem","selectedResearchDimensions","singleContext"],
         requiredFields: ["researchProblem","singleContext"],
         optionalFields: ["selectedResearchDimensions"],
