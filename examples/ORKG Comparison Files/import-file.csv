@@ -1,0 +1,7 @@
+paper:title,paper:authors,paper:publication_month,paper:publication_year,paper:published_in,paper:research_field,paper:doi,paper:url,contribution:research_problem,contribution:extraction_method,Disease name,Location,Time interval,R0 value,CI-values,Method
+,,,,,,10.1016/j.mehy.2004.09.029,,,,Severe Acute Respiratory Syndrome (SARS),Hong Kong,"""-""",1.2,"""-""",Mathematical modeling
+,,,,,,10.1016/j.mehy.2004.09.029,,,,Severe Acute Respiratory Syndrome (SARS),Toronto (Canada),"""-""",1.32,"""-""",Mathematical modeling
+,,,,,,10.3390/v14010157,,,,COVID-19,United States (New Jersey),21 January 2020 to 21 June 2020,7.1,"""-""",Bayesian inference
+,,,,,,10.3390/v14010157,,,,COVID-19,United States (Wyoming),21 January 2020 to 21 June 2020,2.3,"""-""",Bayesian inference
+,,,,,,10.1371/currents.outbreaks.98d2f8f3382d84f390736cd5f5fe133c,,,,Middle East Respiratory Syndrome Coronavirus (MERS-CoV),"Jeddah, Kingdom of Saudi Arabia",Spring 2014,3.5 to 6.7,"""-""","Incidence decay with exponential adjustment (IDEA"") method"""
+,,,,,,10.1371/currents.outbreaks.98d2f8f3382d84f390736cd5f5fe133c,,,,Middle East Respiratory Syndrome Coronavirus (MERS-CoV),"Riyadh, Kingdom of Saudi Arabia",Spring 2014,2.0 to 2.8,"""-""","Incidence decay with exponential adjustment (IDEA"") method"""

@@ -1,0 +1,7 @@
+﻿"dimension","Context 1","Context 2","Context 3"
+"Disease name"," COVID-19"," Middle East Respiratory Syndrome Coronavirus (MERS-CoV)"," Severe Acute Respiratory Syndrome (SARS)"
+"Location"," United States"," Jeddah and Riyadh, Kingdom of Saudi Arabia"," Hong Kong and Toronto (Canada)"
+"Time interval"," 21 January 2020 to 21 June 2020"," Spring 2014"," Not specified"
+"R0 value"," Range from 7.1 to 2.3"," Range from 3.5 to 6.7 in Jeddah; Range from 2.0 to 2.8 in Riyadh"," 1.2 for Hong Kong; 1.32 for Toronto (Canada)"
+"CI-values"," Not provided"," Not provided"," Not provided"
+"Method"," Bayesian inference"," Incidence decay with exponential adjustment ("IDEA") method"," Mathematical modeling"
